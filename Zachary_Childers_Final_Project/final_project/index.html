@@ -3,28 +3,51 @@
  Zachary Childers
  IST-222
  2/1/21 -->
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
+
+<!-- start -->
+
+<!-- Use header area for website name / logo -->
 <head>
     <meta charset="UTF-8">
     <title>Zachary Childers</title>
 </head>
-<body>
-<!-- start -->
 
-<!-- Use header area for website name / logo -->
-    <h1 align=center>
-        Hi, I'm Zach!
-    </h1>
+<body>
+
+<div align = "top" id="logo">
+    <header>
+        <a href="index.html"><img
+                src="images/portLogo.png"
+                                  alt = "Logo"
+                                  height = 90 width = 105></a>
+    </header>
+
+</div>
+<div align="center" id="header and navbar">
+    <header>
+        <a href="index.html">
+            <img src="images/welcome.jpeg" alt="Welcome"
+                 height = 150 width=650></a><br><br>
+
+            <h1>Hi, I'm Zach</h1>
+    </header>
+
+
 <!-- Used to add hyperlinks to other pages within the website -->
-<nav align=center>
-    Home &nbsp;&nbsp;
-    Projects &nbsp;&nbsp;
-    Contact Me &nbsp;&nbsp;
-</nav>
+    <nav align=center>
+        <a href="index.html">Home</a>&nbsp;&nbsp;
+        <a href="projects.html">Projects</a>&nbsp;&nbsp;
+        <a href="contact.html">Contact Me</a>&nbsp;&nbsp;
+    </nav>
+
+</div>
+
 <!-- Has the main content of the webpage -->
 <main>
 
-    <p align=center>
+<div id="content">
+    <p>
         <hr>
         Thank you for taking the time to check out my portfolio!
     </p>
@@ -32,30 +55,30 @@
 
     <p align=left>
         Here are some projects I've been working on lately:<br></p>
-    <ol>
+    <ul>
         <li>SQL Programming</li>
         <li>Unity Game Development</li>
         <li>Python Game Development, using the Ursina Engine</li>
         <li>Learning Web Development</li>
-    </ol>
+    </ul>
 
 
     <p align=left>
         Here are some of my more interesting projects that I've already completed:<br></p>
-        <ol>
+        <ul>
             <li>Webscraping with Java &checkmark;</li>
             <li>Python Discord bots &checkmark;</li>
             <li>Several Python automation, AI and Machine Learning programs - including some to spam your friends with &checkmark;</li>
             <li>C# Discord bots &checkmark;</li>
-        </ol>
-
+        </ul>
+</div>
 
 </main>
 <!-- Webpage footer, has footer content -->
 <footer align=center>
     <br><hr>
     &copy; Copyright 2021. All Rights Reserved <br>
-    zdchilders10@sccsc.edu
+    <a href ="mailto:zdchilders10@sccsc.edu">zdchilders10@sccsc.edu</a>
 </footer>
 
 <!-- end -->
