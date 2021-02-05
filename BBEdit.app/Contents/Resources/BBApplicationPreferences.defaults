@@ -1,0 +1,8 @@
+WatchDocumentsOnDisk = 1;
+AlwaysShowFullPathInOpenRecentMenu = 1;
+StartupAndResumeAction = 0;
+NSRecentDocumentsLimit = 15;
+RestoreApplicationStateAtStartup = 1;
+ReopenDocumentsOnRemoteVolumes = 1;
+RestoreUnsavedDocumentsAtStartup = 1;
+NewAndOpenPrefersSharedWindow = 1;

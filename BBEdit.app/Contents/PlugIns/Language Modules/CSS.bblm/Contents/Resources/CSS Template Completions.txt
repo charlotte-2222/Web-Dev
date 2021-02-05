@@ -1,0 +1,101 @@
+::after	::after	::after
+::before	::before	::before
+::first-letter	::first-letter	::first-letter
+::first-line	::first-line	::first-line
+::selection	::selection	::selection
+:active	:active	:active
+:after	::after	::after
+:before	::before	::before
+:checked	:checked	:checked
+:disabled	:disabled	:disabled
+:empty	:empty	:empty
+:enabled	:enabled	:enabled
+:first-child	:first-child	:first-child
+:first-letter	::first-letter	::first-letter
+:first-line	::first-line	::first-line
+:first-of-type	:first-of-type	:first-of-type
+:focus	:focus	:focus
+:hover	:hover	:hover
+:in-range	:in-range	:in-range
+:invalid	:invalid	:invalid
+:lang	:lang()	:lang(<# language_code #>)
+:last-child	:last-child	:last-child
+:last-of-type	:last-of-type	:last-of-type
+:link	:link	:link
+:not	:not()	:not(<# selector #>)
+:nth-child()	:nth-child(aN+b)	:nth-child(<# A #>n + <# B #>)
+:nth-child()	:nth-child(odd or even)	:nth-child(<# odd_or_even #>)
+:nth-last-child()	:nth-last-child(aN+b of <selectors>)	:nth-last-child(<# A #>n + <# B #> of <# selector_list #>)
+:nth-last-child()	:nth-last-child(aN+b)	:nth-last-child(<# A #>n + <# B #>)
+:nth-last-child()	:nth-last-child(odd or even of <selectors>)	:nth-last-child(<# odd_or_even #> of <# selector_list #>)
+:nth-last-child()	:nth-last-child(odd or even)	:nth-last-child(<# odd_or_even #>)
+:nth-last-of-type()	:nth-last-of-type(aN+b)	:nth-last-of-type(<# A #>n + <# B #>)
+:nth-last-of-type()	:nth-last-of-type(odd or even)	:nth-last-of-type(<# odd_or_even #>)
+:nth-of-type()	:nth-of-type(aN+b)	:nth-of-type(<# A #>n + <# B #>)
+:nth-of-type()	:nth-of-type(odd or even)	:nth-of-type(<# odd_or_even #>)
+:only-child	:only-child	:only-child
+:only-of-type	:only-of-type	:only-of-type
+:optional	:optional	:optional
+:out-of-range	:out-of-range	:out-of-range
+:read-only	:read-only	:read-only
+:read-write	:read-write	:read-write
+:required	:required	:required
+:root	:root	:root
+:selection	::selection	::selection
+:target	:target	:target
+:valid	:valid	:valid
+:visited	:visited	:visited
+!important	!important	!important
+@charset	@charset	@charset "<# UTF-8 #>"
+@font-face	@font-face{}	@font-face {\r\tfont-family: "<# fontfamily #>";\r\tsrc: url("<# srcurl #>");\r}
+@import	@import	@import url(<# url #>)
+@import	@import with media types	@import url(<# url #>) <# media_type_list #>
+@media	@media	@media <# mediaQuery #> {\r\t<# mediaRules #>\r}
+@page	@page	@page <# pagePseudoClass #> {\r\t<# pageRules #>\r}
+@supports	@supports	@supports <# supportQuery #> {\r\t<# supportRules #>\r}
+attr	attr()	attr(<# attribute_name #>)
+block	block	block
+bold	bold	bold
+calc	calc()	calc(<# calculation #>)
+center	center	center
+collapse	collapse	collapse
+cubic-bezier	cubic-bezier timing function	cubic-bezier(<# x1 #>, <# y1 #>, <# x2 #>, <# y2 #>)
+even	even	even
+flex	flex	flex
+grad	grad	grad
+grid	grid	grid
+hsl	hsl()	hsl(<# hue_angle #>, <# saturation #>, <# lightness #>)
+hsla	hsla()	hsla(<# hue_angle #>, <# saturation #>, <# lightness #>, <# alpha #>)
+inherit	inherit	inherit
+initial	initial	initial
+inline	inline	inline
+inline-block	inline-block	inline-block
+inline-table	inline-table	inline-table
+italic	italic	italic
+linear-gradient	linear-gradient()	linear-gradient(<# direction #>, <# color_stops #>)
+list-item	list-item	list-item
+none	none	none
+normal	normal	normal
+oblique	oblique	oblique
+radial-gradient	radial-gradient()	radial-gradient(<# radii_x radii_y #> at <# center_x center_y #>, <# color_stops #>)
+rect	rect	rect
+rect	rect()	rect(<# top #>, <# right #>, <# bottom #>, <# left #>)
+repeating-linear-gradient	repeating-linear-gradient()	repeating-linear-gradient(<# direction #>, <# color_stops #>)
+repeating-radial-gradient	repeating-radial-gradient()	repeating-radial-gradient(<# radii_x radii_y #> at <# center_x center_y #>, <# color_stops #>)
+rgb	rgb()	rgb(<# red #>, <# green #>, <# blue #>)
+rgba	rgba()	rgba(<# red #>, <# green #>, <# blue #>, <# alpha #>)
+run-in	run-in	run-in
+separate	separate	separate
+steps	steps timing function	steps(<# number_of_steps #>, <# start_or_end #>)
+table	table	table
+table-cell	table-cell	table-cell
+table-column	table-column	table-column
+table-column-group	table-column-group	table-column-group
+table-footer-group	table-footer-group	table-footer-group
+table-header-group	table-header-group	table-header-group
+table-row	table-row	table-row
+table-row-group	table-row-group	table-row-group
+unset	unset	unset
+url	url()	url(<# url_string #>)
+vmax	vmax	vmax
+vmin	vmin	vmin

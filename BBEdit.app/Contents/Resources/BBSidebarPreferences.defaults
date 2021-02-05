@@ -1,0 +1,5 @@
+AutoShowFileList = 1;
+AlwaysShowFileList = 0;
+ShowIconsInSidebarLists = 1;
+SidebarShowHideReshapesWindow = 1;
+SidebarListOpenDocumentsInNameOrder = 1;

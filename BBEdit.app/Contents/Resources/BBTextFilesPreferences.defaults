@@ -1,0 +1,10 @@
+EnsureTrailingLineBreak = 0;
+KeepHistoricalBackups = 0;
+DefaultLineBreakCharacter = 1;
+MakeBackup = 0;
+PreserveFileNameExtension = 1;
+StripTrailingWhitespace = 0;
+AllowVersionedSaves = 1;
+RescueDiscardedUntitledDocuments = 1;
+EnableRescueDocumentCleanup = 1;
+RescuedDocumentsCleanupInterval = 7;

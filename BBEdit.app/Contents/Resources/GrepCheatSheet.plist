@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.barebones.DocumentType</key>
+	<string>GrepCheatSheet</string>
+	
+	<key>com.barebones.DocumentFormatVersion</key>
+	<integer>1</integer>
+	
+	<key>GrepHints</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>abc123</string>
+			<key>description</key>
+			<string>literal text</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\d</string>
+			<key>description</key>
+			<string>Any digit</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\D</string>
+			<key>description</key>
+			<string>Any non-digit</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>.</string>
+			<key>description</key>
+			<string>Any character</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\.</string>
+			<key>description</key>
+			<string>Period</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>[abc]</string>
+			<key>description</key>
+			<string>Character class (only a, b, or c)</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>[^abc]</string>
+			<key>description</key>
+			<string>Character class (anything but a, b, or c)</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>[a-z]</string>
+			<key>description</key>
+			<string>Character class (letters from a to z)</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>[0-9]</string>
+			<key>description</key>
+			<string>Character class (numbers from 0 to 9)</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>[0-9,a-f]</string>
+			<key>description</key>
+			<string>Character class (any hex digit)</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>[PARTY*PODS]</string>
+			<key>description</key>
+			<string>Character class (that’s a literal asterisk!)</string>
+			<key>tooltip</key>
+			<string>Characters inside of character classes are used literally. Duplicate characters are ignored.</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>[[:xdigit:]]</string>
+			<key>description</key>
+			<string>Character class (POSIX hex digit)</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>[[:punct:]]</string>
+			<key>description</key>
+			<string>Character class (POSIX punctuation)</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>[[:^punct:]]</string>
+			<key>description</key>
+			<string>Character class (anything except punctuation)</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\w</string>
+			<key>description</key>
+			<string>Any “word” (alphanumeric) character</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\W</string>
+			<key>description</key>
+			<string>Any “non word” (punctuation, space, etc) character</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>{x}</string>
+			<key>description</key>
+			<string>Repeated X times</string>
+			<key>colorReference</key>
+			<string>{1}</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>{x,y}</string>
+			<key>description</key>
+			<string>Repeated X to Y times</string>
+			<key>colorReference</key>
+			<string>{1,2}</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>{x,}</string>
+			<key>description</key>
+			<string>Repeated at least X times</string>
+			<key>colorReference</key>
+			<string>{1,}</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>*</string>
+			<key>description</key>
+			<string>Repeated zero or more times</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>+</string>
+			<key>description</key>
+			<string>Repeated one or more times</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>?</string>
+			<key>description</key>
+			<string>Repeated zero or one times</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\s</string>
+			<key>description</key>
+			<string>Any whitespace character (includes line breaks)</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\S</string>
+			<key>description</key>
+			<string>Any non-whitespace character</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\n</string>
+			<key>description</key>
+			<string>Character escape: new line</string>
+			<key>tooltip</key>
+			<string>You can also use “\r”, if you're used to that from old versions of BBEdit.</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\t</string>
+			<key>description</key>
+			<string>Character escape: tab</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\\</string>
+			<key>description</key>
+			<string>Character escape: literal backslash</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\xNN</string>
+			<key>description</key>
+			<string>One-byte hex escape: general form</string>
+			<key>colorReference</key>
+			<string>\x0D</string>
+			<key>tooltip</key>
+			<string>The “NN” should be any two hex digits (0-9, A-F).</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\x{NNNN}</string>
+			<key>description</key>
+			<string>Two-byte hex escape: general form</string>
+			<key>colorReference</key>
+			<string>\x{ABCD}</string>
+			<key>tooltip</key>
+			<string>The “NNNN” should be any four hex digits (0-9, A-F).</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>^</string>
+			<key>description</key>
+			<string>Match must occur at the beginning of a line</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>$</string>
+			<key>description</key>
+			<string>Match must occur at the end of a line</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\babc</string>
+			<key>description</key>
+			<string>Matches “abc” at the beginning of a word</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>abc\b</string>
+			<key>description</key>
+			<string>Matches “abc” at the end of a word</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>(abc)</string>
+			<key>description</key>
+			<string>Subpattern</string>
+			<key>tooltip</key>
+			<string>Subpatterns are also called “capture groups” in some books and documentation.</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>(a(bc))</string>
+			<key>description</key>
+			<string>Nested subpattern</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\1</string>
+			<key>description</key>
+			<string>Reference to subpattern #1</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>\2</string>
+			<key>description</key>
+			<string>Reference to subpattern #2</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>(?P&lt;foo&gt;abc)</string>
+			<key>description</key>
+			<string>Create named subpattern “foo” matching “abc”</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>(?P=foo)</string>
+			<key>description</key>
+			<string>Reference to named subpattern “foo”</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>ab|cd</string>
+			<key>description</key>
+			<string>Alternation (matches “ab” or “cd”)</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>x(?=abc)</string>
+			<key>description</key>
+			<string>“abc” must occur after “x”</string>
+			<key>tooltip</key>
+			<string>This is a “positive lookahead assertion”. The parentheses do not create a subpattern, nor is the text of the assertion included in the pattern match.</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>x(?!abc)</string>
+			<key>description</key>
+			<string>“abc” must not occur after “x”</string>
+			<key>tooltip</key>
+			<string>This is a “negative lookahead assertion”. The parentheses do not create a subpattern, nor is the text of the assertion included in the pattern match.</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>(?&lt;=abc)x</string>
+			<key>description</key>
+			<string>“abc” must occur before “x”</string>
+			<key>tooltip</key>
+			<string>This is a “positive lookbehind assertion”. The parentheses do not create a subpattern, nor is the text of the assertion included in the pattern match.</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>(?&lt;!abc)x</string>
+			<key>description</key>
+			<string>“abc” must not occur before “x”</string>
+			<key>tooltip</key>
+			<string>This is a “negative lookbehind assertion”. The parentheses do not create a subpattern, nor is the text of the assertion included in the pattern match.</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>(?s)</string>
+			<key>description</key>
+			<string>Allow “.” to match a line break</string>
+			<key>tooltip</key>
+			<string>This is the factory default behavior, and also allows pattern matches to cross line boundaries.</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>(?-s)</string>
+			<key>description</key>
+			<string>Prevent “.” from matching a line break</string>
+			<key>tooltip</key>
+			<string>This also prevents matches from crossing line boundaries.</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>(?i)</string>
+			<key>description</key>
+			<string>Force case-insensitive matching</string>
+			<key>tooltip</key>
+			<string>If present, overrides the “Case sensitive” setting in the Find window.</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>(?-i)</string>
+			<key>description</key>
+			<string>Force case-sensitive matching</string>
+			<key>tooltip</key>
+			<string>If present, overrides the “Case sensitive” setting in the Find window.</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>(?x)</string>
+			<key>description</key>
+			<string>Allow multi-line search patterns</string>
+			<key>tooltip</key>
+			<string>If present, any unescaped whitespace and line breaks in the pattern are ignored, and you can write line comments in the pattern, starting with “#”.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

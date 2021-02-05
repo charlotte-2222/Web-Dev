@@ -1,0 +1,31 @@
+"com.barebones.bbedit.ProjectWindowTouchBar" =
+{
+	customizableItems = 
+	(
+		"com.barebones.bbedit.ProjectWindowTouchBar.sidebar",
+		"com.barebones.bbedit.ProjectWindowTouchBar.previousDocument",
+		"com.barebones.bbedit.ProjectWindowTouchBar.nextDocument"
+	);
+};
+
+"com.barebones.bbedit.FTPBrowserTouchBar" =
+{
+	customizableItems = 
+	(
+		"com.barebones.bbedit.FTPBrowserWindow.goUp",
+		"com.barebones.bbedit.FTPBrowserWindow.goDown",
+		"com.barebones.bbedit.FTPBrowserWindow.reload",
+		"com.barebones.bbedit.FTPBrowserWindow.getInfo",
+	);
+};
+
+"com.barebones.bbedit.LivePreviewWindowTouchBar" =
+{
+	customizableItems =
+	(
+		"com.barebones.bbedit.LivePreviewWindow.reload",
+		"com.barebones.bbedit.LivePreviewWindow.show-document",
+		"com.barebones.bbedit.LivePreviewWindow.show-inspector",
+		"com.barebones.bbedit.LivePreviewWindow.open-in-browser",
+	);
+};

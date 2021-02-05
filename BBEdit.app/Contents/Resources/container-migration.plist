@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+		symlink these folders to their old locations so that the user doesn't
+		have to root through ~/Library/Containers/ to find the data.
+	-->
+	<key>Symlink</key>
+	<array>
+		<string>${Library}/BBEdit/</string>
+		<string>${ApplicationSupport}/BBEdit/</string>
+	</array>
+</dict>
+</plist>

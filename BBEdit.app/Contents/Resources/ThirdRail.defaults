@@ -1,0 +1,42 @@
+WebKitDeveloperExtras = 1;
+
+UserManualDownloadURL = "https://s3.amazonaws.com/BBSW-download/$(PRODUCT_NAME)_$(MARKETING_VERSION)_User_Manual.pdf";
+
+WorksheetLoginShells =
+{
+	bash = ("--login", "-O", "expand_aliases");
+	sh = ("--login", "-O", "expand_aliases");
+	zsh = ("--login");
+	tcsh = ();
+	fish = ("--login");
+};
+
+LoginShellCommandEnvironmentTimeout = 1500;
+
+TextFileUTIExclusions = ( "com.omnigroup.omnigraffle.graffle", "public.audiovisual-content", "public.image", "com.apple.applescript.script", "com.adobe.pdf" );
+
+AllowForceClickDetectionInContainerWindows = 0;
+AllowAEObjectAccessOnBackgroundThread = 1;
+
+NSAutomaticCapitalizationEnabled = 0;
+NSAutomaticDashSubstitutionEnabled = 0;
+NSAutomaticPeriodSubstitutionEnabled = 0;
+NSAutomaticQuoteSubstitutionEnabled = 0;
+NSAutomaticSpellingCorrectionEnabled = 0;
+NSAutomaticTextCompletionEnabled = 0;
+
+EnableCharacterWrappingToWindowWidth = 0;
+
+DefaultWindowSize_ColorSchemeWindow = (511, 502);
+DefaultWindowSize_TextFactoryWindow = (596, 410);
+DefaultWindowSize_FTPBrowser = (668, 512);
+
+DisableWindowRepositioningForDesktopChanges = 1;
+DisableAnimationForDesktopChanges = 0;
+
+EnableBacklashUForPCRE = 0;
+ThrillSeekersEnableJITForPCRE = 0;
+
+DisableTransparentTitleBars = 1;
+
+ApplicationDidQuitClean = 1;

@@ -1,0 +1,8 @@
+TextCompletionTrigger = 1;
+IncludeDictionaryWordsInCompletionList = 0;
+IncludeTextReplacementsInCompletionList = 0;
+AutoInsertPairs = 1;
+AutoInsertPairs-AngleBrackets = 0;
+AutoInsertPairs-SingleQuotes_Markdown = 0;
+AutoPairsSurroundSelection = 1;
+"Editor_AutoCompleteDelay" = 0.5;

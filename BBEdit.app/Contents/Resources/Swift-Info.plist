@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>BBLM</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(PROJECT_BUILD_NUMBER)</string>
+	<key>com.barebones.ProductBuildNumber</key>
+	<string>$(PROJECT_BUILD_NUMBER)</string>
+	<key>CFBundleGetInfoString</key>
+	<string>$(MARKETING_VERSION) (${PROJECT_BUILD_NUMBER}), copyright ©1992-$(COPYRIGHT_YEAR) Bare Bones Software, Inc.</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>com.barebones.bblminfo</key>
+	<array>
+		<dict>
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+
+			<key>BBLMLanguageCode</key>
+			<string>Swft</string>
+
+			<key>BBLMLanguageDisplayName</key>
+			<string>Swift</string>
+
+			<key>BBLMEntryPointName</key>
+			<string>SwiftMain</string>
+
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+
+			<key>BBLMPreferredFilenameExtension</key>
+			<string>swift</string>
+
+			<key>BBLMKeywords</key>
+			<array>
+				<dict>
+					<key>RunKind</key> <string>com.barebones.bblm.keyword</string>
+					<key>KeywordFileName</key> <string>Swift Keywords.txt</string>
+				</dict>
+
+				<dict>
+					<key>RunKind</key> <string>com.barebones.bblm.predefined-symbol</string>
+					<key>KeywordFileName</key> <string>Swift Predefined Names.txt</string>
+				</dict>
+			</array>
+
+			<key>BBLMRunColors</key>
+			<dict>
+				<key>com.barebones.bblm.swift.docstring</key> <string>==com.barebones.bblm.string</string>
+				<key>com.barebones.bblm.swift.attribute</key> <string>==com.barebones.bblm.preprocessor</string>
+			</dict>
+
+			<key>BBLMFunctionItemKinds</key>
+			<dict>
+				<key>E</key>
+				<dict>
+					<key>typeString</key>
+						<string>com.barebones.bblm.swift.extension</string>
+					<key>displayName</key>
+						<string>extension</string>
+					<key>labelColorName</key>
+						<string>CodeSenseLightRed</string>
+				</dict>
+			</dict>
+
+			<key>BBLMSpellableRunKinds</key>
+			<array>
+				<string>com.barebones.bblm.line-comment</string>
+				<string>com.barebones.bblm.block-comment</string>
+				<string>com.barebones.bblm.swift.docstring</string>
+			</array>
+
+			<key>BBLMNonSpellableRunKinds</key>
+			<array>
+				<string>com.barebones.bblm.code</string>
+				<string>com.barebones.bblm.double-string</string>
+			</array>
+			
+			<key>BBLMNonCompletableRunKinds</key>
+			<array>
+				<string>com.barebones.bblm.line-comment</string>
+				<string>com.barebones.bblm.block-comment</string>
+				<string>com.barebones.bblm.single-string</string>
+				<string>com.barebones.bblm.double-string</string>
+				<string>com.barebones.bblm.swift.docstring</string>
+			</array>
+
+			<key>BBLMBalanceSpecialRunKinds</key>
+			<array>
+				<string>com.barebones.bblm.swift.docstring</string>
+			</array>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.swift</string>
+				</dict>
+			</array>
+
+			<key>BBLMAutoPairMultipleCountDelimiters</key>
+			<dict>
+				<key>"</key>
+				<integer>3</integer>
+			</dict>
+			
+			<key>BBLMCommentLineDefault</key>
+			<string>//</string>
+
+			<key>BBLMCommentPrefixDefault</key>
+			<string>/* </string>
+			<key>BBLMCommentSuffixDefault</key>
+			<string> */</string>
+		</dict>
+	</array>
+</dict>
+</plist>

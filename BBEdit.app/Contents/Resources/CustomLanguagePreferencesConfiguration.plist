@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Markdown</string>
+		<key>BBLMLanguageCode</key>
+		<string>MRKD</string>
+		<key>NibName</key>
+		<string>MarkdownLanguageOptions</string>
+		<key>PrincipalClass</key>
+		<string>BBMarkdownLanguagePrefsController</string>
+		<key>PreferenceKeys</key>
+		<array>
+			<string>DefaultRenderer</string>
+			<string>CustomRendererCommand</string>
+			<string>CustomRendererCommandArguments</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>JavaScript</string>
+		<key>BBLMLanguageCode</key>
+		<string>JScr</string>
+		<key>NibName</key>
+		<string>JavaScriptLanguageOptions</string>
+		<key>PrincipalClass</key>
+		<string>BBJavaScriptLanguagePrefsController</string>
+		<key>PreferenceKeys</key>
+		<array>
+			<string>ShowAnonymousFunctions</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Python</string>
+		<key>BBLMLanguageCode</key>
+		<string>Pyth</string>
+		<key>NibName</key>
+		<string>PythonLanguageOptions</string>
+		<key>PrincipalClass</key>
+		<string>BBPythonLanguagePrefsController</string>
+		<key>PreferenceKeys</key>
+		<array>
+			<string>DefaultInterpreter</string>
+			<string>CustomInterpreterCommand</string>
+			<string>CustomInterpreterArguments</string>
+			<string>AllowShebangLineOverride</string>
+			<string>UseFlakeForPythonSyntaxChecking</string>
+		</array>
+	</dict>
+</array>
+</plist>

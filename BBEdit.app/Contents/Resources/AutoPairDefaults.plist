@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>(</key>
+	<dict>
+		<key>PreferenceKey</key>
+		<string>Parentheses</string>
+		
+		<key>PairCharacter</key>
+		<string>)</string>
+	</dict>
+	
+	<key>{</key>
+	<dict>
+		<key>PreferenceKey</key>
+		<string>Braces</string>
+		
+		<key>PairCharacter</key>
+		<string>}</string>
+	</dict>
+	
+	<key>[</key>
+	<dict>
+		<key>PreferenceKey</key>
+		<string>Brackets</string>
+		
+		<key>PairCharacter</key>
+		<string>]</string>
+	</dict>
+
+	<key>&lt;</key>
+	<dict>
+		<key>PreferenceKey</key>
+		<string>AngleBrackets</string>
+		
+		<key>PairCharacter</key>
+		<string>&gt;</string>
+		
+		<!-- we generally want this off, HTML/XML will override in their plists -->
+		<key>SettingOverrideValue</key>
+		<false />
+	</dict>
+
+	<key>`</key>
+	<dict>
+		<key>PreferenceKey</key>
+		<string>Backtick</string>
+		
+		<key>PairCharacter</key>
+		<string>`</string>
+	</dict>
+
+	<key>'</key>
+	<dict>
+		<key>PreferenceKey</key>
+		<string>SingleQuotes</string>
+		
+		<key>PairCharacter</key>
+		<string>'</string>
+		
+		<key>SuppressPairingInRunKinds</key>
+		<array>
+			<string>com.barebones.bblm.line-comment</string>
+			<string>com.barebones.bblm.block-comment</string>
+			<string>com.barebones.bblm.double-string</string>
+			<string>com.barebones.bblm.heredoc-string</string>
+			<string>com.barebones.bblm.sgml-cdata</string>
+			<string>com.barebones.bblm.sgml-pcdata</string>
+			<string>com.barebones.bblm.markdown.InlineCode</string>
+			<string>com.barebones.bblm.markdown.QuotedInlineCode</string>
+			<string>com.barebones.bblm.markdown.ListInlineCode</string>
+			<string>com.barebones.bblm.markdown.QuotedListInlineCode</string>
+			
+			<string>com.barebones.bblm.markdown.Fenced</string>
+			<string>com.barebones.bblm.markdown.QuotedFenced</string>
+			<string>com.barebones.bblm.markdown.ListFenced</string>
+			<string>com.barebones.bblm.markdown.QuotedListFenced</string>
+
+			<string>?</string> <!-- suppress in plain text/no run+non-empty -->
+		</array>
+	</dict>
+
+	<key>"</key>
+	<dict>
+		<key>PreferenceKey</key>
+		<string>DoubleQuotes</string>
+		
+		<key>PairCharacter</key>
+		<string>"</string>
+	</dict>
+
+	<key>‘</key>
+	<dict>
+		<key>PreferenceKey</key>
+		<string>SingleTypographerQuotes</string>
+		
+		<key>PairCharacter</key>
+		<string>’</string>
+
+		<key>SuppressPairingInRunKinds</key>
+		<array>
+			<string>com.barebones.bblm.line-comment</string>
+			<string>com.barebones.bblm.block-comment</string>
+			<string>com.barebones.bblm.double-string</string>
+			<string>com.barebones.bblm.heredoc-string</string>
+			<string>com.barebones.bblm.sgml-cdata</string>
+			<string>com.barebones.bblm.sgml-pcdata</string>
+			<string>*</string> <!-- suppress in plain text/no run -->
+		</array>
+	</dict>
+
+	<key>“</key>
+	<dict>
+		<key>PreferenceKey</key>
+		<string>DoubleTypographerQuotes</string>
+		
+		<key>PairCharacter</key>
+		<string>”</string>
+	</dict>
+
+	<key>_</key>
+	<dict>
+		<key>PreferenceKey</key>
+		<string>Underscore</string>
+		
+		<key>PairCharacter</key>
+		<string>_</string>
+
+		<key>SuppressPairingInRunKinds</key>
+		<array>
+			<string>com.barebones.bblm.markdown.InlineCode</string>
+			<string>com.barebones.bblm.markdown.QuotedInlineCode</string>
+			<string>com.barebones.bblm.markdown.ListInlineCode</string>
+			<string>com.barebones.bblm.markdown.QuotedListInlineCode</string>
+			
+			<string>com.barebones.bblm.markdown.Fenced</string>
+			<string>com.barebones.bblm.markdown.QuotedFenced</string>
+			<string>com.barebones.bblm.markdown.ListFenced</string>
+			<string>com.barebones.bblm.markdown.QuotedListFenced</string>
+			
+			<string>com.barebones.bblm.markdown.Keyword</string>
+			<string>com.barebones.bblm.markdown.QuotedKeyword</string>
+			<string>com.barebones.bblm.markdown.ListKeyword</string>
+			<string>com.barebones.bblm.markdown.QuotedListKeyword</string>
+		</array>
+	</dict>
+
+	<key>*</key>
+	<dict>
+		<key>PreferenceKey</key>
+		<string>Star</string>
+		
+		<key>PairCharacter</key>
+		<string>*</string>
+
+		<key>SuppressPairingInRunKinds</key>
+		<array>
+			<string>com.barebones.bblm.markdown.InlineCode</string>
+			<string>com.barebones.bblm.markdown.QuotedInlineCode</string>
+			<string>com.barebones.bblm.markdown.ListInlineCode</string>
+			<string>com.barebones.bblm.markdown.QuotedListInlineCode</string>
+			
+			<string>com.barebones.bblm.markdown.Fenced</string>
+			<string>com.barebones.bblm.markdown.QuotedFenced</string>
+			<string>com.barebones.bblm.markdown.ListFenced</string>
+			<string>com.barebones.bblm.markdown.QuotedListFenced</string>
+		</array>
+	</dict>
+
+</dict>
+</plist>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/CSS Color Names.txt</key>
+		<data>
+		/Jlka65E2RZa8mtmznaoGTMbvXs=
+		</data>
+		<key>Resources/CSS Functions.txt</key>
+		<data>
+		ousn618q/GFK9JHaqlcoi8Bj3d0=
+		</data>
+		<key>Resources/CSS Keywords.txt</key>
+		<data>
+		aQH6ttKQVEbrgVaAEEC64qmVHwk=
+		</data>
+		<key>Resources/CSS Predefined Names.txt</key>
+		<data>
+		cwY+QTrhMbbxT4f2AsX4G/JlH1A=
+		</data>
+		<key>Resources/CSS Properties.txt</key>
+		<data>
+		SP5rkI1DuHHN1ASNlcJ/2voL/Fg=
+		</data>
+		<key>Resources/CSS Template Completions.txt</key>
+		<data>
+		78dhjNXPe5vqyS7vh8vipLGQw9Q=
+		</data>
+		<key>Resources/CSS Unit Labels.txt</key>
+		<data>
+		Z38Bq8BSbdsEkfJF+Auppp7+xv8=
+		</data>
+		<key>Resources/CSS Value Keywords.txt</key>
+		<data>
+		4gNBW4xocHBlzCkv7qu2peIqzKc=
+		</data>
+		<key>Resources/CSS Vendor Prefixed.txt</key>
+		<data>
+		ex80Jz66mPsaQRlxlaS9bWMLcsc=
+		</data>
+		<key>Resources/SCSS Keywords.txt</key>
+		<data>
+		0nz5F7K83NPJkcyZVg5R+vqnonQ=
+		</data>
+		<key>Resources/SCSS Predefined Names.txt</key>
+		<data>
+		hote6cyTWaTP61IZyLxDOo3kMRs=
+		</data>
+		<key>Resources/SCSS Tags.txt</key>
+		<data>
+		hXbgHY/ptj0pp74gfGJiIriInTY=
+		</data>
+		<key>Resources/SCSS Template Completions.txt</key>
+		<data>
+		JdQqq41YcNFUyN0q9lzTIfZIPTE=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>Resources/CSS Color Names.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bqwY3v055a9wo8LQScwfJBj2Fv3LYRG6a+zo0mcrYYw=
+			</data>
+		</dict>
+		<key>Resources/CSS Functions.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t/aGvpwoyW2WDf/G5idoZLXIhyjNqiYRBZPH8nLX0SI=
+			</data>
+		</dict>
+		<key>Resources/CSS Keywords.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EGmlIHfaw7TueqEiEsIesiuDOvY6UrX05TfsAQnL0V8=
+			</data>
+		</dict>
+		<key>Resources/CSS Predefined Names.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U8nGEM56MY5Gofq+p2r7DgwXTg19hGTHjc/rbVNOxCo=
+			</data>
+		</dict>
+		<key>Resources/CSS Properties.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4T5pm2F7eA5uZbGWPVpijMRfaMxDM4QF3TQNR2KYPIY=
+			</data>
+		</dict>
+		<key>Resources/CSS Template Completions.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+E1LLjsEXN3jC9HzGWbI9875SMdkKKixQ5laXwLCNms=
+			</data>
+		</dict>
+		<key>Resources/CSS Unit Labels.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uBYITDSlyK/SuDKs60VRlAnAqRubRR+P0kPQuCee4xY=
+			</data>
+		</dict>
+		<key>Resources/CSS Value Keywords.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ypN2/ACDJmhxtyDctIgBZnr742ztt3geKzzokDieoek=
+			</data>
+		</dict>
+		<key>Resources/CSS Vendor Prefixed.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bGGyuAYyAF4dHdDI3qspTdFUI8hJCd+e3F4iJOcJWxw=
+			</data>
+		</dict>
+		<key>Resources/SCSS Keywords.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+1oL1JzN0O5U99TUiHRrqoujWuA23kY4/MUiEkVCgm4=
+			</data>
+		</dict>
+		<key>Resources/SCSS Predefined Names.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nol2o+Zlqv9yrEeg7HYbPVXbjceA5Uk125NGlItKvmI=
+			</data>
+		</dict>
+		<key>Resources/SCSS Tags.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LyxW54jE3qaewE2k6j/m+Bl5bZ5KAEsCA1aezJ6JpeE=
+			</data>
+		</dict>
+		<key>Resources/SCSS Template Completions.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WyqllAu1c666QBmTjUr4f1m9BO09PUFDHi1lkwYl6ZE=
+			</data>
+		</dict>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

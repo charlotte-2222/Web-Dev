@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.barebones.DocumentType</key>
+	<string>CheatSheet</string>
+	
+	<key>com.barebones.DocumentFormatVersion</key>
+	<integer>1</integer>
+	
+	<key>LanguageCode</key>
+	<string>MRKD</string>
+	
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>`#SELECTIONORPLACEHOLDER text#`</string>
+			<key>displayText</key>
+			<string>`text`</string>
+			<key>description</key>
+			<string>Code span</string>
+		</dict>
+
+		<dict>
+			<key>text</key>
+			<string>`` `#SELECTIONORPLACEHOLDER text#` ``</string>
+			<key>displayText</key>
+			<string>`` `text` ``</string>
+			<key>description</key>
+			<string>Backtick string in a code span</string>
+		</dict>
+
+		<dict>
+			<key>text</key>
+			<string>_#SELECTIONORPLACEHOLDER text#_</string>
+			<key>displayText</key>
+			<string>_text_</string>
+			<key>description</key>
+			<string>Emphasis</string>
+		</dict>
+		
+		<dict>
+			<key>text</key>
+			<string>**#SELECTIONORPLACEHOLDER text#**</string>
+			<key>displayText</key>
+			<string>**text**</string>
+			<key>description</key>
+			<string>Strong emphasis</string>
+		</dict>
+				
+		<dict>
+			<key>text</key>
+			<string>![#SELECTIONORPLACEHOLDER alt text#](#PLACEHOLDERSTART# location #PLACEHOLDEREND#)</string>
+			<key>displayText</key>
+			<string>![Alt text](location)</string>
+			<key>description</key>
+			<string>Image</string>
+		</dict>
+		
+		<dict>
+			<key>text</key>
+			<string>![#SELECTIONORPLACEHOLDER alt text#](#PLACEHOLDERSTART# location #PLACEHOLDEREND# "#PLACEHOLDERSTART# title #PLACEHOLDEREND#")</string>
+			<key>displayText</key>
+			<string>![Alt text](location "title")</string>
+			<key>description</key>
+			<string>Image with title</string>
+		</dict>
+		
+		<dict>
+			<key>text</key>
+			<string>[#SELECTIONORPLACEHOLDER description#](#PLACEHOLDERSTART# location #PLACEHOLDEREND#)</string>
+			<key>displayText</key>
+			<string>[Description](location)</string>
+			<key>description</key>
+			<string>Link</string>
+		</dict>
+		
+		<dict>
+			<key>text</key>
+			<string>#BLOCK#----</string>
+			<key>displayText</key>
+			<string>----</string>
+			<key>description</key>
+			<string>Horizontal rule</string>
+		</dict>
+
+		<dict>
+			<key>text</key>
+			<string>> #SELECTIONORPLACEHOLDER text#</string>
+			<key>displayText</key>
+			<string>> text</string>
+			<key>description</key>
+			<string>Quoted text</string>
+		</dict>
+		
+		<dict>
+			<key>text</key>
+			<string>#BLOCK#```\n#SELECTIONORPLACEHOLDER code#\n```</string>
+			<key>displayText</key>
+			<string>```text```</string>
+			<key>description</key>
+			<string>Fenced code block</string>
+		</dict>
+		
+		<dict>
+			<key>text</key>
+			<string>\# #SELECTIONORPLACEHOLDER heading text#</string>
+			<key>displayText</key>
+			<string># Heading</string>
+			<key>description</key>
+			<string>Level 1 heading</string>
+		</dict>
+
+		<dict>
+			<key>text</key>
+			<string>\## #SELECTIONORPLACEHOLDER heading text#</string>
+			<key>displayText</key>
+			<string>## Heading</string>
+			<key>description</key>
+			<string>Level 2 heading</string>
+		</dict>
+
+		<dict>
+			<key>text</key>
+			<string>\### #SELECTIONORPLACEHOLDER heading text#</string>
+			<key>displayText</key>
+			<string>### Heading</string>
+			<key>description</key>
+			<string>Level 3 heading</string>
+		</dict>
+
+		<dict>
+			<key>text</key>
+			<string>\#### #SELECTIONORPLACEHOLDER heading text#</string>
+			<key>displayText</key>
+			<string>#### Heading</string>
+			<key>description</key>
+			<string>Level 4 heading</string>
+		</dict>
+
+		<dict>
+			<key>text</key>
+			<string>\##### #SELECTIONORPLACEHOLDER heading text#</string>
+			<key>displayText</key>
+			<string>##### Heading</string>
+			<key>description</key>
+			<string>Level 5 heading</string>
+		</dict>
+
+		<dict>
+			<key>text</key>
+			<string>\###### #SELECTIONORPLACEHOLDER heading text#</string>
+			<key>displayText</key>
+			<string>###### Heading</string>
+			<key>description</key>
+			<string>Level 6 heading</string>
+		</dict>
+	</array>
+</dict>
+</plist>

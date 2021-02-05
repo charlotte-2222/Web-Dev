@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<!--
+	WARNING: this needs to be represented as XML, because the legacy NextStep
+	plist format returns the integer values as strings, which in turn will fail
+	to compare correctly with Boolean or numeric objects
+-->
+	
+<dict>
+	<key>AllowFolderSelectionInOpenDialog</key>
+	<true />
+	<key>AllowPrototypeObjectExtend_JavaScript</key>
+	<true />
+	<key>AllowPrototypeObjectExtend_JavaScript_Factory</key>
+	<true />
+	<key>AllowShebangLineOverride</key>
+	<true />
+	<key>AllowVolumeMountDuringStateRestore</key>
+	<false />
+	<key>AppleShowAllExtensions</key>
+	<true />
+	<key>AskForUnguessableFileEncoding</key>
+	<false />
+	<key>AutoSaveAppState</key>
+	<true />
+	<key>AutoSaveIntervalInMinutes_v2</key>
+	<integer>1</integer>
+	<key>AutoSwapCloseShortcuts</key>
+	<true />
+	<key>AutoWrapDocumentsWithLongLines</key>
+	<true />
+	<key>AutoWrapDocumentsWithLongLines_HTML</key>
+	<false />
+	<key>AutoWrapLineLengthThreshold</key>
+	<integer>8192</integer>
+	<key>BalanceIncludesDelimiters</key>
+	<false />
+	<key>CheckModificationDateForRemoteSaves</key>
+	<true />
+	<key>CSSMarkup_NewLineBeforeBrace</key>
+	<true />
+	<key>CSSMarkup_PreferShortHexColors</key>
+	<true />
+	<key>CSSMarkup_SimpleRulesOnOneLine</key>
+	<true />
+	<key>CamelCaseNavigationIncludesUnderscores</key>
+	<false />
+	<key>CascadeNewWindows</key>
+	<true />
+	<key>Clipboard_ConvertNonBreakingSpacesWhenPasting</key>
+	<true />
+	<key>ClippingsWorkInFindWindows</key>
+	<true />
+	<key>CodelessPCRETimeout</key>
+	<integer>250</integer>
+	<key>ColorPatternsInGrepCheatSheet</key>
+	<true />
+	<key>CommentWholeLineWithInsertionPoint</key>
+	<true />
+	<key>ContextMenuClipboard</key>
+	<true />
+	<key>ContextMenuMarkers</key>
+	<true />
+	<key>ContextMenuResolveURL</key>
+	<true />
+	<key>ContextMenuSaveNewSelection</key>
+	<true />
+	<key>ContextMenuSpellChecking</key>
+	<true />
+	<key>ContextMenuTextFolding</key>
+	<true />
+	<key>ContextMenuTextSearching</key>
+	<true />
+	<key>CtagsCompletionThreshold</key>
+	<integer>2</integer>
+	<key>Diff_IgnoreRCSKeywords</key>
+	<true />
+	<key>DisableAttachmentScripts</key>
+	<false />
+	<key>DisableCtagsScanOnRemoteVolumes</key>
+	<true />
+	<key>DisableCursorBlink</key>
+	<false />
+	<key>DisableFindAndReplaceHistory</key>
+	<false />
+	<key>DisablePassiveFTP</key>
+	<false />
+	<key>Display_FullPathInRecentMenu</key>
+	<true />
+	<key>Display_FullPathInWindowMenu</key>
+	<false />
+	<key>DoubleClickToBalance</key>
+	<true />
+	<key>Editor_AlwaysOpenQuickFind</key>
+	<false />
+	<key>Editor_AutoIndentIsBraceAware</key>
+	<true />
+	<key>Editor_AutoWordCountSizeThreshold</key>
+	<integer>16777216</integer>
+	<key>Editor_ControlArrowCamelCase</key>
+	<true />
+	<key>Editor_DeleteIndentationWhitespaceToTabStop</key>
+	<true />
+	<key>Editor_SoftWrapLengthThreshold</key>
+	<integer>50331648</integer>
+	<key>Editor_SpellCheckLengthLimit</key>
+	<integer>1048576</integer>
+	<key>EnableAutoSave_v2</key>
+	<true />
+	<key>EnableDefaultFilenameExtensions</key>
+	<true />
+	<key>EnableSSHCompression</key>
+	<true />
+	<key>EnableSyntaxColoring</key>
+	<true />
+	<key>ExchangeCommandAndOptionHorizontal</key>
+	<false />
+	<key>ExchangeCommandAndOptionVertical</key>
+	<false />
+	<key>FTPAbortTimeout</key>
+	<integer>3</integer>
+	<key>FTPAutoDisconnectPeriod</key>
+	<integer>90</integer>
+	<key>FTPConnectionTimeout</key>
+	<integer>20</integer>
+	<key>FTPControlTimeout</key>
+	<integer>30</integer>
+	<key>FTPRememberRecentFiles</key>
+	<true />
+	<key>FTPShowParentDir</key>
+	<true />
+	<key>FTPTransferTimeout</key>
+	<integer>30</integer>
+	<key>FindAndReplaceHistorySize</key>
+	<integer>16</integer>
+	<key>FindDialog_UsesFindScrap</key>
+	<true />
+	<key>FixedWidthFontSmoothingThreshold</key>
+	<integer>8</integer>
+	<key>FlashBalancePointsWhenNavigating</key>
+	<true />
+	<key>FontSmoothingThreshold</key>
+	<integer>4</integer>
+	<key>ForceSingletonWindowsForUnixScriptOutput</key>
+	<false />
+	<key>FullScreenWidthThreshold</key>
+	<string>0.65</string>
+	<key>FullScreenWindowsHogScreen</key>
+	<true />
+	<key>FunctionMenuShowCommentCallouts</key>
+	<true />
+	<key>FunctionMenuShowFunctionPrototypes</key>
+	<false />
+	<key>FunctionPopup_Prototypes</key>
+	<true />
+	<key>FunctionPopup_SortByName</key>
+	<false />
+	<key>GenerateCompletionsFromNearbyTagsFiles</key>
+	<true />
+	<key>GenerateTemporaryTagsForCompletion</key>
+	<true />
+	<key>GrayLevelForModifiedRingsInListWidgets</key>
+	<string>0.65</string>
+	<key>GroupWindowsMenuByKind</key>
+	<true />
+	<key>HTMLImageMarkupCreatesSizeAttributes</key>
+	<true />
+	<key>HTMLImageMarkupUsesFileNameForAlt</key>
+	<true />
+	<key>HonorEmacsStateOnOpen</key>
+	<true />
+	<key>InspectTextFileContentsForListFiltering</key>
+	<true />
+	<key>InspectZipArchiveContentsForFileFiltering</key>
+	<false />
+	<key>LeaveRoomForPalettes</key>
+	<true />
+	<key>LegacyUndoSelectionBehavior</key>
+	<false />
+	<key>LinkEncodingToCharset</key>
+	<true />
+	<key>LiveMatchSizeLimit</key>
+	<integer>256</integer>
+	<key>LongestLineCalculationLimit</key>
+	<integer>16777216</integer>
+	<key>MakeShebangScriptsExecutable</key>
+	<true />
+	<key>MakeTempProjectForFolderOpen</key>
+	<true />
+	<key>MarkupPanelAutoPrefillRecommendedAttributeNames</key>
+	<true />
+	<key>MarkupToolsMisc_SkipXMLFilesWhenScanningFolders</key>
+	<true />
+	<key>MaxDocumentLengthForCompletionTokenizer</key>
+	<integer>1048576</integer>
+	<key>MaxFindDifferencesGroupSize</key>
+	<integer>5</integer>
+	<key>MaximumHeaderFontSize</key>
+	<integer>14</integer>
+	<key>MaximumLineBarPointSize</key>
+	<integer>24</integer>
+	<key>MaximumTextLengthForLanguageGuessing</key>
+	<integer>32768</integer>
+	<key>MostRecentItemsGroupLimit</key>
+	<integer>6</integer>
+	<key>MoveModelessWindowsToActiveSpace</key>
+	<true />
+	<key>NumberOfOpenByNameItems</key>
+	<integer>100</integer>
+	<key>OFBNEnumeratesXcodeSubprojects</key>
+	<true />
+	<key>OpaqueBlockComments_PHP</key>
+	<true />
+	<key>OpaqueHereDoc_PHP</key>
+	<true />
+	<key>OpaqueLineComments_PHP</key>
+	<true />
+	<key>OpaqueStrings_PHP</key>
+	<true />
+	<key>OpenByNameMaxWildcardMatches</key>
+	<integer>200</integer>
+	<key>OpenDiskBrowserForTarballs</key>
+	<true />
+	<key>OpenDiskBrowserForZipFiles</key>
+	<true />
+	<key>OpenItemsOnSingleClick</key>
+	<true />
+	<key>OpenPanelShowsFrontDocumentDirectory</key>
+	<true />
+	<key>OpenPDFsAsText</key>
+	<false />
+	<key>PerformLineFeedTranslation</key>
+	<true />
+	<key>PrettyPrintPastedHTML</key>
+	<true />
+	<key>ProjectsAllowVolumeMountWhenReopening</key>
+	<false />
+	<key>ProjectsListCanAcquireKeyboardFocus</key>
+	<false />
+	<key>ProjectsOpenItemsOnSingleClick</key>
+	<true />
+	<key>ProjectsRememberOpenDocuments</key>
+	<true />
+	<key>PromptToReopenRemoteDocuments</key>
+	<true />
+	<key>ProvideSTDINToUnixScripts</key>
+	<true />
+	<key>RecentItems_RememberTempFiles</key>
+	<false />
+	<key>RememberFTPPasswords</key>
+	<true />
+	<key>ReportNonzeroExitCodeFromUnixFilters</key>
+	<true />
+	<key>ReportReplaceAllResults</key>
+	<false />
+	<key>ReuseSearchResultsWindowsWhenPossible</key>
+	<true />
+	<key>ReverseSwipeNavigationSense</key>
+	<false />
+	<key>RunUnixCommand_HistoryLimit</key>
+	<integer>16</integer>
+	<key>RunUsingPython3</key>
+	<true />
+	<key>SFTPConnectionTimeout</key>
+	<integer>20</integer>
+	<key>SafeSavesDisabled</key>
+	<true />
+	<key>SaveDocumentState</key>
+	<true />
+	<key>SaveDocumentStateForTempFiles</key>
+	<false />
+	<key>SaveOpenWithDataInTypelessFiles</key>
+	<true />
+	<key>ScanHTMLStringsForFunctions</key>
+	<false />
+	<key>ScanHTMLStringsForFunctions_Python</key>
+	<true />
+	<key>ShowAnonymousFunctions_ActionScript</key>
+	<true />
+	<key>ShowAnonymousFunctions_ActionScript_Factory</key>
+	<true />
+	<key>ShowAnonymousFunctions_JavaScript</key>
+	<true />
+	<key>ShowAnonymousFunctions_JavaScript_Factory</key>
+	<true />
+	<key>ShowFTPDotFiles</key>
+	<false />
+	<key>ShowGitIgnoredCommandIsVisible</key>
+	<true />
+	<key>ShowSCMDataCommandIsVisible</key>
+	<false />
+	<key>ShowSVNSwitchedItems</key>
+	<false />
+	<key>ShowVariablesInFunctionList_PHP</key>
+	<false />
+	<key>SkipNodeModulesWhenScanningFolders</key>
+	<true />
+	<key>SkipSCMAdminDirsWhenScanningFolders</key>
+	<true />
+	<key>SortCompletionResultsByName</key>
+	<true />
+	<key>SortWindowsAndDocumentsByName</key>
+	<true />
+	<key>StrictCounterpartMatchingForCLanguages</key>
+	<true />
+	<key>SwipeToNavigateBetweenDocuments</key>
+	<true />
+	<key>TerminalBundleID</key>
+	<string>com.apple.Terminal</string>
+	<key>ThrottleVerticalScrollingSpeed</key>
+	<true />
+	<key>TranslateLineBreaksInKeyboardInput</key>
+	<true />
+	<key>UseClippingsForCompletion</key>
+	<true />
+	<key>UseColorSchemeBackgroundForDarkModeUI</key>
+	<true />
+	<key>UseDashForReferenceLookups</key>
+	<true />
+	<key>UseDistinctColorsForHTMLAttributesAndValues</key>
+	<true />
+	<key>UseFlakeForPythonSyntaxChecking</key>
+	<true />
+	<key>UseFlakeForPythonSyntaxChecking_Python</key>
+	<true />
+	<key>UseFlakeForPythonSyntaxChecking_Python_Factory</key>
+	<true />
+	<key>UseInlineStylesForCopiedHTML</key>
+	<true />
+	<key>UseNumericKeypadForCursorMovement</key>
+	<false />
+	<key>UseResourceForkForDocumentState</key>
+	<false />
+	<key>UseSeparatorsInUnixScriptOutput</key>
+	<true />
+	<key>UseSystemFontForLineBar</key>
+	<false />
+	<key>UseTokensFromDocumentForCompletion</key>
+	<true />
+	<key>VisibleSearchSources_ConfiguredWebSites</key>
+	<true />
+	<key>VisibleSearchSources_DiskBrowsers</key>
+	<true />
+	<key>VisibleSearchSources_FrontmostProject</key>
+	<true />
+	<key>VisibleSearchSources_OpenDocuments</key>
+	<true />
+	<key>VisibleSearchSources_Projects</key>
+	<true />
+	<key>VisibleSearchSources_RecentFolders</key>
+	<true />
+	<key>VisibleSearchSources_RecentXcodeProjects</key>
+	<true />
+	<key>VisibleSearchSources_ResultsBrowsers</key>
+	<true />
+	<key>VisibleSearchSources_SavedSearchSets</key>
+	<true />
+	<key>VisibleSearchSources_SavedSpotlightSearches</key>
+	<true />
+	<key>WarnMalformedUTF8</key>
+	<true />
+	<key>WarnWhenWindowContainsMultipleDocuments</key>
+	<true />
+	<key>WorksheetNotificationMinimumRunTime</key>
+	<real>0.5</real>
+	<key>WriteEmacsStateOnSave</key>
+	<false />
+	<key>WriteExtendedAttributes</key>
+	<string>Smart</string>
+	<key>ZoomWindowsInPlace</key>
+	<true />
+</dict>
+</plist>

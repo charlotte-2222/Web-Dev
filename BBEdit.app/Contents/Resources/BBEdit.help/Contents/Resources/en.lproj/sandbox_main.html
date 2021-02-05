@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link rel="STYLESHEET" href="help.css" charset="ISO-8859-1" type="text/css" />
+    <title>About App Sandboxing</title>
+    <meta name="generator" content="BBEdit 13" />
+</head>
+<body>
+	<div id="Sandboxing"></div>
+	<h3>BBEdit and App Sandboxing</h3>
+	
+	<p class="Body">
+	“App Sandboxing” is a term that refers to a collection of security technologies built in to macOS. Sandboxing is intended to protect you and your data by limiting the operation of applications to their intended use, which in turn makes it harder for malicious software or accidental misuse to cause data loss or damage to your computer.
+	</p>
+	
+	<p class="Body">
+	One of the core concepts of App Sandboxing is that BBEdit, as a sandboxed application, is not allowed to use <em>any</em> of your files or folders without your explicit permission. You can grant this permission in one of a small number of ways, including (but not necessarily limited to):
+	<ul>
+		<li class="Bullet-First">Asking BBEdit to open a file from the Finder by double-clicking it;
+		
+		<li class="Bullet-First">Dragging a file from the Finder on to BBEdit’s application icon;
+		
+		<li class="Bullet-First">Using BBEdit’s “Open…” command to choose a file or folder.
+	</ul>
+	</p>
+	
+	<p>
+	However, as an advanced developer tool, BBEdit frequently requires access to files or folders that that you may not have specifically asked it to open, for safe and legitimate reasons:
+	</p>
+	
+	<ul>
+		<li class="Bullet-First">If you have located BBEdit’s application support folder in Dropbox or iCloud Drive, BBEdit needs to be able to figure out where the folder actually is, <em>and</em> be able to use that location;
+		<li class="Bullet-First">When opening a document, BBEdit needs to know:
+			<ul>
+			<li class="Bullet-First">whether the file is under revision control with Git or Subversion;
+			<li class="Bullet-First">whether there are one or more <code>.editorconfig</code> files which control editor options for the file;
+			<li class="Bullet-First">whether any ctags data is available to support BBEdit’s completion and "Find Definition" features;
+			</ul>
+		</li>
+		<li class="Bullet-First">When previewing a file with unsaved changes, BBEdit needs to be able to write a temporary file out in the same directory, so that relative links within the file remain correct;
+		<li class="Bullet-First">If you have turned on “Make Backups” in the Text Files preferences, BBEdit needs to be able to write backup and auto-recovery files in the same directory as the file being saved;
+		<li class="Bullet-First">The “Open File by Name” feature needs to be able to examine all possible directories that may contain files for which you're searching, including some that you may never have visited before;
+		<li class="Bullet-First">Many dialog boxes in BBEdit which allow you to choose a file or folder give you the choice of directly entering a file path;
+		<li class="Bullet-First">&hellip;and many more similar cases.
+	</ul>
+	
+	<p>
+	Without unrestricted access to your files and folders, many of BBEdit’s most useful features, from the basic to the most powerful, won't work at all; or they may misbehave in unexpected ways. At the very least, this hinders your ability to work done.
+	</p>
+
+	<p>
+	In order to resolve this fundamental conflict between security and usability, we have devised a solution in which BBEdit requests that you permit it the same sort of access to your files and folders that was previously available to non-sandboxed versions of BBEdit or TextWrangler.
+	</p>
+	<p>This in no way compromises your security or that of your computer while using BBEdit, but does allow BBEdit to function at its fullest potential.
+	</p>
+	
+	<hr />
+
+	<h3>Allowing File Access</h3>
+	
+	<p>
+	When starting for the first time, BBEdit will ask you to allow it to use your files and folders:
+	</p>
+	<img src="SandboxStartup.png" style="align: center;">
+	
+	<p>
+	Use the “Allow Access…” button to confirm access to the top directory on your startup disk. Then, click the “Continue” button to continue. And that’s it! BBEdit now has the access it needs to do its job.
+	</p>
+	
+	<p>If you instead click the “Cancel” button, BBEdit will still start up normally, but won’t have the file access that it needs in order to operate correctly. Some features may behave unpredictably, or will not work at all.
+	</p>
+	
+	<p><strong>Note: </strong>This prompt will only appear once.
+
+	<hr />
+
+	<h3>Application Preferences</h3>
+	<p>
+	If you clicked the “Cancel” button when BBEdit prompted you for access, and you’re finding that things aren’t behaving as they should, you can still grant BBEdit permission to use your files and folders.
+	<p>
+	<p>
+	To do this, open the Preferences window and select the “Application” item in the side bar. You should see something that looks like this:
+	</p>
+	<img src="SandboxAppPreferences.png" style="align: center;">
+	<p>
+	Click the “Allow…” button to confirm access to the top directory of your startup disk.
+	</p>
+	<p>
+	<img src="SandboxPrefsAllow.png" style="align: center;">
+	</p>
+	<p>
+	And you're done!
+	</p>
+
+	<hr />
+	<h3>What about “Full Disk Access”?</h3>
+	
+	<p>
+	macOS Mojave and later support a feature called “Full Disk Access”. Adding an application to the Full Disk Access
+	list instructs the OS to permit that application to read and write files that reside in certain protected locations.
+	</p>
+	
+	<p>However,
+	Full Disk Access has <strong>no</strong> interaction with App Sandboxing. Thus, if you add BBEdit to the
+	Full Disk Access list, it will have no effect on its sandboxed behavior.
+	</p>
+	<p>Conversely, granting BBEdit sandbox access as described above will not add it to the Full Disk Access list - the OS requires that you do so yourself, if desired.
+	</p>
+	
+	<hr />
+	<p class="Body">
+	If you would like to read about the technical aspects of sandboxing in depth, we recommend that you consult <a href="https://developer.apple.com/app-sandboxing/">Apple’s developer documentation</a>.
+	</p>
+	
+</body>
+</html>
