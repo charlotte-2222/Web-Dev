@@ -14,8 +14,7 @@
 </head>
 
 <body>
-
-<div align = "top" id="logo" style="background-color:rgb(114, 137, 218)">
+<div align = "top" id="logo">
     <header>
         <a href="index.html"><img
                 src="images/portLogo.png"
@@ -26,10 +25,6 @@
 </div>
 <div align="center" id="header and navbar">
     <header>
-        <a href="index.html">
-            <img src="images/welcome.jpeg" alt="Welcome"
-                 height = 120 width=500></a><br><br>
-
             <h1>Hi, I'm Zach</h1>
 
     </header>
@@ -48,20 +43,40 @@
 <main>
 
 <div id="content">
-    <p>
+    <h3 align ="center">
         <hr>
-        Thank you for taking the time to check out my portfolio!
-    </p>
+        Thank you for taking the time to check out my portfolio!<br>
+        These are languages I'm good at:
+    </h3>
 
 
-    <p align=left>
-        Here are some projects I've been working on lately:<br></p>
-    <ul>
-        <li>SQL Programming</li>
-        <li>Unity Game Development</li>
-        <li>Python Game Development, using the Ursina Engine</li>
-        <li>Learning Web Development</li>
-    </ul>
+    <div id="gallery" align=center>
+            <a href="projects.html"><img
+                    src= "images/langs.png"
+                    alt=webscrapCode
+                    height="140"
+                    width="270"
+                    class ="thumbnail">
+            </a><br>
+
+
+        <a href="projects.html"><img
+                src= "images/webscrapCode.jpeg"
+        alt=webscrapCode
+        height="240"
+        width="260"
+        class ="thumbnail">
+        </a>
+
+         <a href="projects.html"><img
+                src= "images/bigCode.jpeg"
+                alt=webscrapCode
+                height="240"
+                width="260"
+        class="thumbnail">
+        </a>
+    </div>
+
 
 
     <p align=left>
@@ -76,13 +91,67 @@
 
 </main>
 <!-- Webpage footer, has footer content -->
-<div id="footer" style="background-color:rgba(153,170,181,0.91)">
+<div id="footer">
     <footer align=center>
         <br><hr>
         &copy; Copyright 2021. All Rights Reserved <br>
         <a href ="mailto:zdchilders10@sccsc.edu">zdchilders10@sccsc.edu</a>
     </footer>
 </div>
+<!-- I just wanted color, so i added this. -->
+<style>
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: bottom;
+        width: 180px;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    ;
+    }
+    .thumbnail:hover {
+        position:relative;
+        top:-25px;
+        left:-35px;
+        width:500px;
+        height:auto;
+        display:block;
+        z-index:999;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    html {
+        min-height: 100%;
+    }
+    body{
+        background: -webkit-linear-gradient(#74aab8, #b4efef);
+        background: -o-linear-gradient(#778aec, #adb0f8);
+        background: -moz-linear-gradient(#619bff, #c9eefa);
+        background: linear-gradient(#4fbfe2, #5772fa);
+        background-color: #5581cd;
+        font-family: Segoe UI,
+        Frutiger,
+        Frutiger Linotype,
+        Dejavu Sans,
+        Helvetica Neue,
+        Arial,sans-serif;;
+    }
+    header{
+        font-family: cursive;
+
+    }
+</style>
 
 <!-- end -->
 </body>
